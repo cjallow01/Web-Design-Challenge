@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-us">
-<head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,26 +11,28 @@
     integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
 
   <!-- Our own CSS stylesheet -->
-  <link rel="stylesheet" href="assets/css/styles.css" media="screen">
-</head>
-<br>
+  <link rel="stylesheet" href="../assets/css/styles.css" media="screen">
+
   <body>
     <!-- Start of navbar -->
     <!-- End of navbar -->
-    <!-- <nav class="media-query-navbar-color navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="media-query-navbar-color navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
-        <div class="col-xs-9 phone-nav"></div>
         <a class=" navbar-brand-color " href="index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div>
-          <ul class="nav navbar-nav justify-content-end">
-  
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="data.html">Data</a>
+            </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="comparison.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"
-                aria-haspopup="true">
-                Plots<span class="caret"></span>
+              <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Plots
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <li><a class="dropdown-item" href="temperature.html">Max temperature</a></li>
@@ -43,50 +44,11 @@
           </ul>
         </div>
       </div>
-    </nav> -->
-    <nav class="navbar navbar-expand-lg navbar-custom">
-      <div class="container-fluid">
-        <div class="col-xs-9 phone-nav">
-          <a class="navbar-brand" href="index.html" id="logo">Latitude</a>
-        </div>
-  
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-  
-        <div>
-          <ul class="nav navbar-nav justify-content-end">
-  
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="comparison.html" role="button" data-bs-toggle="dropdown" aria-expanded="false"
-                aria-haspopup="true">
-                Plots<span class="caret"></span>
-              </a>
-  
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="visualizations/temp.html">Max Temperature</a></li>
-                <li><a class="dropdown-item" href="visualizations/humidity.html">Humidity</a></li>
-                <li><a class="dropdown-item" href="visualizations/cloudiness.html">Cloudiness</a></li>
-                <li><a class="dropdown-item" href="visualizations/wind.html">Wind Speed</a></li>
-              </ul>
-            </li>
-  
-            <li class="nav-item">
-              <a class="nav-link" href="comparison.html">Comparison</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="data.html">Data</a>
-            </li>
-  
-          </ul>
-        </div>
-      </div>
     </nav>
     <!-- Start of container -->
     <!-- End of container -->
     <br>
-    <div class="container content bg-white">
+    <div class="container">
         <!--Content class to contain first level of text before visualizations, pending how to expand to 2 vizualizations in large screen -->
       <div class="content">
         <h2 class="visualization-font-color text-left"> Comparison: Latitude vs X</h2>
